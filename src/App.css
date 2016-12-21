@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.Bottom-part {
+  display: flex;
+}
+.Profiles-body {
+  flex: 2;
+  background-image: url("https://s29.postimg.org/ur57q9vs7/github.jpg");
+  text-align: center;
+  border-radius: 20px;
+  margin-right: 80px;
+  margin-left: 50px;
+  margin-top: 20px;
+  height: 285px;
+  color: white;
+}
+
+.Other-team-members {
+  flex: 2;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+.Search-area {
+  flex: 2;
+}
+
+.Team-members {
+  border-style: solid;
+}
+
+
+.Username {
+  font-size: 25px;
+  color: white;
+
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+input {
+  width: 120px;
+  height: 30px;
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.Profile-pic {
+  border-radius: 100px;
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.City-location{
+  display: block;
+
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
